@@ -3,7 +3,7 @@
 using namespace std; 
 
 bool CheckSort( vector<int>&arr ){
-      for(int i = 0; i < arr.size();i++){
+      for(int i = 0; i <= arr.size()-2;i++){
         if(arr[i] > arr[i+1]){
             return false;
         }
@@ -12,7 +12,7 @@ bool CheckSort( vector<int>&arr ){
 }
 
 int main(){
-    vector<int> vec = {1,2,3,4,6,5,7,8};
+    vector<int> vec = {1,2,3,4,5,6,8,7};
     cout <<"my array is: ";
     for(int i = 0; i < vec.size();i++){
          cout <<vec[i] <<" ";
