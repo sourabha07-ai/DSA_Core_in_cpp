@@ -1,0 +1,12 @@
+# C++ compiled files
+*.exe
+*.out
+
+# Output folder
+output/
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.tmp
