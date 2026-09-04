@@ -24,9 +24,9 @@ int main(){
                 swapped = true;
            } 
         }
-        if(!swapped) break;
         cout <<"after swap: " <<i + 1 <<": ";
         print(arr);
+        if(!swapped) break;
       }
       cout << "Sorted array: ";
       print(arr);
