@@ -7,8 +7,6 @@ void print(const vector<int>& arr){
     }
   cout <<endl;
 }
-
-
 int main(){
         vector<int> arr = {1, 2, 3, 5, 4};
         cout <<"Array: "; print(arr);
