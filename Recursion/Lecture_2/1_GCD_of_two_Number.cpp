@@ -16,6 +16,6 @@ int main(){
         cin >>m;
         cout <<"Second number: ";
         cin >>n;
-        cout <<"HCF (Highest Common Factor).:";
+        cout <<"HCF (Highest Common Factor):";
        cout << gcd(m,n) <<endl;
 }
