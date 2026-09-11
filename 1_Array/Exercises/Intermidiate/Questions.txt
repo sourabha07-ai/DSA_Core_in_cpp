@@ -1,0 +1,25 @@
+Find the second-largest element in an array.
+Find the second-smallest element in an array.
+Find the largest and smallest elements in one traversal.
+Reverse an array without using another array.
+Sort an array in ascending order.
+Sort an array in descending order.
+Check whether an array is already sorted.
+Remove duplicate elements from an array.
+Print all duplicate elements.
+Find the frequency of every element.
+Find the element with the highest frequency.
+Find the element with the lowest frequency.
+Merge two arrays into one array.
+Find the common elements between two arrays.
+Find the union of two arrays.
+Find the intersection of two arrays.
+Insert an element at a given position.
+Delete an element from a given position.
+Left-rotate an array by one position.
+Right-rotate an array by one position.
+Rotate an array left by K positions.
+Rotate an array right by K positions.
+Move all zero elements to the end.
+Move all negative elements to one side.
+Separate even and odd elements.
