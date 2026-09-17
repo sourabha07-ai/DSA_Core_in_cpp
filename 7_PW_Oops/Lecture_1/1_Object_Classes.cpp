@@ -36,6 +36,7 @@ int main(){
         cout<<endl;
 
         Students student_3 = {74,"Arati Jena",56,"aratijena1987@gmail.com"};
+        
         cout<<"Student_id:"<<student_3.id<<endl
         <<"Student_name:"<<student_3.name<<endl
         <<"Student_age:"<<student_3.age<<endl
