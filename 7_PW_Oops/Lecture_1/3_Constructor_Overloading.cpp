@@ -47,5 +47,4 @@ int main(){
         print(S3);
         print(S4);
 
-       
 }
