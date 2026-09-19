@@ -14,7 +14,7 @@ int main(){
 
         //Size of array
         size_t n = arr.size();
-        for(int i = 0; i < n-1; i++){
+        for(int i = 1; i < n-1; i++){
              int j = i;
                while(j >= 1 && arr[j] < arr[j - 1]){
                   swap(arr[j],arr[j - 1]);
