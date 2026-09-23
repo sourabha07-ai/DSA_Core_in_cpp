@@ -23,6 +23,10 @@ public:
 
       //pop the element in the vector
       void pop_back(){
+         if(length == 0){
+            cout <<"Vector is empty!"<<endl;
+            return;
+         }
          length--;
       }
 
@@ -38,11 +42,19 @@ public:
       }
       //Show the index value
       int get(int index){
+         if(index < 0 || index >=length){
+            cout <<"Index out of bound!";
+            return;
+         }
          return arr[index];
       }
 
       //Update the index value 
       int set(int index, int value){
+         if(index < 0 || index >=length){
+            cout <<"Index out of bound!";
+            return;
+         }
             arr[index] = value;
             return value;
       }
