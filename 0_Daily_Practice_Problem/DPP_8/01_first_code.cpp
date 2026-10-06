@@ -1,22 +1,12 @@
 #include <iostream>
-#include<vector>
+#include <vector>
+#include <algorithm>
 using namespace std;
-void print(vector<int>& arr){
-    for(int i:arr){
-        cout <<i <<" ";
-    }
-    cout <<endl;
-}
-
-void solve(){
-
-}
-
 
 int main(){
-    vector<int> arr = {1,2,3,4,5,6,7,8,9};
-    print(arr);
+    vector<int> v = {1, 2, 4, 4, 4, 6, 7};
 
-    cout <<"Sorted array: ";
-    solve();
+    auto l = lower_bound(v.begin(), v.end(), 4);
+    auto u = upper_bound(v.begin(), v.end(), 4);
+    cout << u - l<<endl;
 }
