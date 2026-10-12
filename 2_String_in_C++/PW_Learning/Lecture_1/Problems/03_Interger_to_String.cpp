@@ -5,7 +5,9 @@ using namespace std;
 
 int main()
 {
-    int num = 12345;
+    int num ;
+    cout<<"Enter a Number: ";
+    cin>>num;
     cout << "Number: " << num << endl;
     string str = "";
 
@@ -33,7 +35,6 @@ int main()
     if(negative){
         str = "-" + str;
     }
-    cout <<"String: "<<str <<endl;
-
+    cout <<"String : \""  << str << "\" " <<endl;
     return 0;
 }
